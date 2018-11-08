@@ -102,6 +102,7 @@
 				TargetAttributes = {
 					B15572E91D3FFF580032DCDE = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4YQ2953637;
 						LastSwiftMigration = 0930;
 					};
 				};
@@ -281,10 +282,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4YQ2953637;
 				INFOPLIST_FILE = InheritanceChallenge/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.MobileMakers.InheritanceChallenge;
+				PRODUCT_BUNDLE_IDENTIFIER = co.MobileMakers.InheritanceChallenge.bro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -295,10 +297,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4YQ2953637;
 				INFOPLIST_FILE = InheritanceChallenge/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.MobileMakers.InheritanceChallenge;
+				PRODUCT_BUNDLE_IDENTIFIER = co.MobileMakers.InheritanceChallenge.bro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
