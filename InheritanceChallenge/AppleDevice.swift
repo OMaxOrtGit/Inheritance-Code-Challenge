@@ -16,16 +16,15 @@ class AppleDevice {
     var batteryLevel = 1.0
     var systemVersion = "1.42I"
     
-    init() {
-        name = "Heavy"
-        model = "PC"
-        batteryLevel = 0.2
-        systemVersion = "Not 1.42I"
-    }
     /***************************************************
     * Start Your Code Here For Stretch #1
     ***************************************************/
-
+    init() {
+        name = "Heavy"
+        model = "PC"
+        batteryLevel = 0.1
+        systemVersion = "Not 1.42I"
+    }
     /***************************************************
     * End Your Code Here For Stretch #1
     ***************************************************/

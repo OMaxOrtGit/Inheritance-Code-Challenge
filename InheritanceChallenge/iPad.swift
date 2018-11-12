@@ -14,6 +14,9 @@ class iPad: AppleDevice {
     var screenHeight = 3.4
     var screenWidth = 5.1
     var orientationIsPortrait = true
+    /***************************************************
+    * Start Your Code Here For Stretch #1
+    ***************************************************/
     override init() {
         super.init()
         screenHeight = 9.7
@@ -21,10 +24,6 @@ class iPad: AppleDevice {
         orientationIsPortrait = false
         print("lets see")
     }
-    /***************************************************
-    * Start Your Code Here For Stretch #1
-    ***************************************************/
-
     /***************************************************
     * End Your Code Here For Stretch #1
     ***************************************************/
