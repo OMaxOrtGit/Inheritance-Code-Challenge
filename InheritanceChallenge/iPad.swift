@@ -19,10 +19,9 @@ class iPad: AppleDevice {
     ***************************************************/
     override init() {
         super.init()
-        screenHeight = 9.7
         screenWidth = 4.2
+        screenHeight = 9.7
         orientationIsPortrait = false
-        print("lets see")
     }
     /***************************************************
     * End Your Code Here For Stretch #1
@@ -31,7 +30,12 @@ class iPad: AppleDevice {
     /***************************************************
     * Start Your Code Here For Stretch #2
     ***************************************************/
-
+    override init(Name: String, Model: String, BatteryLevel: Float, SystemVersion: String, ScreenWidth: Float, ScreenHeight: Float, Orientation: Bool) {
+        super.init()
+        screenWidth = 2.7
+        screenHeight = 5.3
+        orientationIsPortrait = false
+    }
     /***************************************************
     * End Your Code Here For Stretch #2
     ***************************************************/

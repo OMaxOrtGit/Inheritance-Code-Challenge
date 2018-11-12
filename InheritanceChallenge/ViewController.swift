@@ -48,8 +48,8 @@ class ViewController: UIViewController {
         let orientationIsPortrait = UIDevice.current.orientation.isPortrait
 
         //Uncomment for the two lines below for Stretch #2
-        //let mySecondDevice = iPad(Name: name, Model: model, BatteryLevel: batteryLevel, SystemVersion: systemVersion, ScreenWidth: screenWidth, ScreenHeight: screenHeight, Orientation: orientationIsPortrait)
-       // myLabel.text = "Stretch #2 Completed\n\n" + getDeviceInfo(mySecondDevice)
+        let mySecondDevice = iPad(Name: name, Model: model, BatteryLevel: batteryLevel, SystemVersion: systemVersion, ScreenWidth: screenWidth, ScreenHeight: screenHeight, Orientation: orientationIsPortrait)
+        myLabel.text = "Stretch #2 Completed\n\n" + getDeviceInfo(mySecondDevice)
     }
 
     @IBAction func onStretch3Pressed(_ sender: UIButton)

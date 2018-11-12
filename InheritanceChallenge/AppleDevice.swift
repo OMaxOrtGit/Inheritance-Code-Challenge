@@ -32,7 +32,12 @@ class AppleDevice {
     /***************************************************
     * Start Your Code Here For Stretch #2
     ***************************************************/
-
+    init(Name: String, Model: String, BatteryLevel: Float, SystemVersion: String, ScreenWidth: Float, ScreenHeight: Float, Orientation: Bool) {
+        name = "Name"
+        model = "Model"
+        batteryLevel = 0.5
+        systemVersion = "1.42K"
+    }
     /***************************************************
     * End Your Code Here For Stretch #2
     ***************************************************/
