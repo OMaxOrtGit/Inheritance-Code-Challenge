@@ -63,7 +63,7 @@ class ViewController: UIViewController {
         let myAppleDevice = AppleDevice(Name: name, Model: model, BatteryLevel: batteryLevel, SystemVersion: systemVersion)
 
         let myThirdDevice = iPad(AppleDevice: myAppleDevice)
-
+        
         myThirdDevice.screenWidth = (Float)(UIScreen.main.bounds.width)
         myThirdDevice.screenHeight = (Float)(UIScreen.main.bounds.height)
         myThirdDevice.orientationIsPortrait = UIDevice.current.orientation.isPortrait

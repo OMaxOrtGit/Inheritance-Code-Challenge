@@ -43,7 +43,7 @@ class iPad: AppleDevice {
     /***************************************************
     * Start Your Code Here For Stretch #3
     ***************************************************/
-    override init(Name: String, Model: String, BatteryLevel: Float, SystemVersion: String) {
+    init(AppleDevice device: AppleDevice) {
         super.init()
         screenWidth = 2.7
         screenHeight = 5.3

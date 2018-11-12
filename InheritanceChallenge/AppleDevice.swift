@@ -45,11 +45,11 @@ class AppleDevice {
     /***************************************************
     * Start Your Code Here For Stretch #3
     ***************************************************/
-    init(Name: String, Model: String, BatteryLevel: Float, SystemVersion: String) {
-        name = Name
-        model = Model
-        batteryLevel = BatteryLevel
-        systemVersion = SystemVersion
+    init(Name n: String, Model m: String, BatteryLevel bL: Float, SystemVersion sV: String) {
+        name = n
+        model = m
+        batteryLevel = bL
+        systemVersion = sV
     }
     /***************************************************
     * End Your Code Here For Stretch #3
