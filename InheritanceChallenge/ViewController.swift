@@ -29,7 +29,7 @@ class ViewController: UIViewController {
 
         myFirstDevice.name = UIDevice.current.name
         myFirstDevice.model = UIDevice.current.model
-        myFirstDevice.batteryLevel = Double(UIDevice.current.batteryLevel)
+        myFirstDevice.batteryLevel = UIDevice.current.batteryLevel
         myFirstDevice.systemVersion = UIDevice.current.systemVersion
 
         myFirstDevice.orientationIsPortrait = UIDevice.current.orientation.isPortrait
@@ -60,15 +60,15 @@ class ViewController: UIViewController {
         let systemVersion = UIDevice.current.systemVersion
 
         //Uncomment for the six lines below for Stretch #3
-       // let myAppleDevice = AppleDevice(Name: name, Model: model, BatteryLevel: batteryLevel, SystemVersion: systemVersion)
+        let myAppleDevice = AppleDevice(Name: name, Model: model, BatteryLevel: batteryLevel, SystemVersion: systemVersion)
 
-       // let myThirdDevice = iPad(AppleDevice: myAppleDevice)
+        let myThirdDevice = iPad(AppleDevice: myAppleDevice)
 
-       // myThirdDevice.screenWidth = (Float)(UIScreen.main.bounds.width)
-       // myThirdDevice.screenHeight = (Float)(UIScreen.main.bounds.height)
-     //   myThirdDevice.orientationIsPortrait = UIDevice.current.orientation.isPortrait
+        myThirdDevice.screenWidth = (Float)(UIScreen.main.bounds.width)
+        myThirdDevice.screenHeight = (Float)(UIScreen.main.bounds.height)
+        myThirdDevice.orientationIsPortrait = UIDevice.current.orientation.isPortrait
 
-      //  myLabel.text = "Stretch #3 Completed\n\n" + getDeviceInfo(myThirdDevice)
+        myLabel.text = "Stretch #3 Completed\n\n" + getDeviceInfo(myThirdDevice)
     }
 
     func getDeviceInfo(_ device: iPad) -> String {

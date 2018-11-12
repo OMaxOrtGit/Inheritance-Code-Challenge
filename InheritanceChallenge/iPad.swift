@@ -11,9 +11,9 @@ import UIKit
 * Start Your Code Here For MVP
 ****************************************************/
 class iPad: AppleDevice {
-    var screenHeight = 3.4
-    var screenWidth = 5.1
-    var orientationIsPortrait = true
+    var screenHeight:Float = 3.4
+    var screenWidth:Float = 5.1
+    var orientationIsPortrait:Bool = true
     /***************************************************
     * Start Your Code Here For Stretch #1
     ***************************************************/
@@ -43,9 +43,14 @@ class iPad: AppleDevice {
     /***************************************************
     * Start Your Code Here For Stretch #3
     ***************************************************/
-
+    override init(Name: String, Model: String, BatteryLevel: Float, SystemVersion: String) {
+        super.init()
+        screenWidth = 2.7
+        screenHeight = 5.3
+        orientationIsPortrait = false
+    }
     /***************************************************
-    * End Your Code Here For Stretch #2
+    * End Your Code Here For Stretch #3
     ***************************************************/
  }
 /***************************************************
