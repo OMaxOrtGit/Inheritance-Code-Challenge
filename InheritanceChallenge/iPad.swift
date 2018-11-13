@@ -30,11 +30,11 @@ class iPad: AppleDevice {
     /***************************************************
     * Start Your Code Here For Stretch #2
     ***************************************************/
-    override init(Name: String, Model: String, BatteryLevel: Float, SystemVersion: String, ScreenWidth: Float, ScreenHeight: Float, Orientation: Bool) {
-        super.init()
+    init(Name: String, Model: String, BatteryLevel: Float, SystemVersion: String, ScreenWidth: Float, ScreenHeight: Float, Orientation: Bool) {
         screenWidth = 2.7
         screenHeight = 5.3
         orientationIsPortrait = false
+        super.init(NName: Name, NModel: Model, NBatteryLevel: BatteryLevel, NSystemVersion: SystemVersion)
     }
     /***************************************************
     * End Your Code Here For Stretch #2
@@ -44,10 +44,10 @@ class iPad: AppleDevice {
     * Start Your Code Here For Stretch #3
     ***************************************************/
     init(AppleDevice device: AppleDevice) {
-        super.init()
         screenWidth = 2.7
         screenHeight = 5.3
         orientationIsPortrait = false
+        super.init(Name: device.n, Model: String, BatteryLevel: Float, SystemVersion: String)
     }
     /***************************************************
     * End Your Code Here For Stretch #3

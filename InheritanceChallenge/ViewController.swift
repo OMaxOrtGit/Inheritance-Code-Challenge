@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     {
         let myFirstDevice = iPad()
 
-        myFirstDevice.name = UIDevice.current.name
+       myFirstDevice.name = UIDevice.current.name
         myFirstDevice.model = UIDevice.current.model
         myFirstDevice.batteryLevel = UIDevice.current.batteryLevel
         myFirstDevice.systemVersion = UIDevice.current.systemVersion
@@ -46,7 +46,7 @@ class ViewController: UIViewController {
         let screenWidth = (Float)(UIScreen.main.bounds.width)
         let screenHeight = (Float)(UIScreen.main.bounds.height)
         let orientationIsPortrait = UIDevice.current.orientation.isPortrait
-
+        
         //Uncomment for the two lines below for Stretch #2
         let mySecondDevice = iPad(Name: name, Model: model, BatteryLevel: batteryLevel, SystemVersion: systemVersion, ScreenWidth: screenWidth, ScreenHeight: screenHeight, Orientation: orientationIsPortrait)
         myLabel.text = "Stretch #2 Completed\n\n" + getDeviceInfo(mySecondDevice)
