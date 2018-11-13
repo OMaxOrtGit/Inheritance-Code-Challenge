@@ -18,10 +18,10 @@ class iPad: AppleDevice {
     * Start Your Code Here For Stretch #1
     ***************************************************/
     override init() {
-        super.init()
         screenWidth = 4.2
         screenHeight = 9.7
         orientationIsPortrait = false
+        super.init()
     }
     /***************************************************
     * End Your Code Here For Stretch #1
@@ -44,9 +44,9 @@ class iPad: AppleDevice {
     * Start Your Code Here For Stretch #3
     ***************************************************/
     init(AppleDevice device: AppleDevice) {
-        screenWidth = 2.7
-        screenHeight = 5.3
-        orientationIsPortrait = false
+        screenWidth = 236.1
+        screenHeight = 543.3
+        orientationIsPortrait = true
         super.init(Name: device.n, Model: String, BatteryLevel: Float, SystemVersion: String)
     }
     /***************************************************
