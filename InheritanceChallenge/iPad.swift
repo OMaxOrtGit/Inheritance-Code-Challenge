@@ -48,6 +48,7 @@ class iPad: AppleDevice {
         screenHeight = 543.3
         orientationIsPortrait = true
         super.init(Name: device.n, Model: String, BatteryLevel: Float, SystemVersion: String)
+        //device.
     }
     /***************************************************
     * End Your Code Here For Stretch #3
